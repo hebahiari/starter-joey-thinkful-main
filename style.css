@@ -1,0 +1,43 @@
+header {
+    background-color: #0B1C51;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header nav {
+        margin-top: 15px;
+    }
+    header nav ul li a:hover {
+        color: darkslategray
+    }
+}
